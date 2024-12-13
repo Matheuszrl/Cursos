@@ -9,6 +9,7 @@
     --borderHighlightDark: #1e1f22;
     --backgroundDark: #f3f4f6;
     --hoverTab: #000000;
+    --borderHR: #efeff0;
 }
 
 [data-theme="dark"] {
@@ -22,6 +23,7 @@
     --borderHighlightDark: #1e1f22;
     --backgroundDark: #2e3035;
     --hoverTab: #ffffff;
+    --borderHR: #1e1f22;
 }
 
 * {
@@ -86,7 +88,7 @@ h3, h4 {
 }
 
 hr {
-    border: 1px solid var(--borderHighlightDark);
+    border: 1px solid var(--borderHR);
     border-radius: 15px;
     margin: 20px 0;
 }
