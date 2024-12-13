@@ -1,0 +1,36 @@
+.toc {
+    width: 16rem;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: var(--bg-color);
+    border-left: 1px solid var(--border-color);
+    padding: 2rem 1rem;
+    overflow-y: auto;
+}
+
+.toc h2 {
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.toc nav a {
+    display: block;
+    padding: 0.25rem 0;
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 0.875rem;
+}
+
+.toc nav a:hover {
+    color: var(--accent-color);
+}
+
+@media (max-width: 1024px) {
+    .toc {
+        display: none;
+    }
+}

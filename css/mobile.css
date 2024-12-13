@@ -1,0 +1,44 @@
+@media (max-width: 1024px) {
+    .layout {
+        flex-direction: column;
+    }
+
+    .main-content {
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .toc {
+        display: none;
+    }
+
+    .mobile-nav-toggle {
+        display: block;
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+        z-index: 100;
+        padding: 0.75rem;
+        background-color: var(--accent-color);
+        border: none;
+        border-radius: 50%;
+        color: white;
+        cursor: pointer;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .mobile-nav-toggle:hover {
+        background-color: var(--accent-color-dark);
+    }
+
+    .search-container {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
